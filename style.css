@@ -27,7 +27,7 @@ body {
 .bg-text-animation {
   position: absolute;
   top: 5rem;
-  font-size: 12rem;
+  font-size: 10rem;
   text-transform: uppercase;
   font-weight: 900;
   -webkit-text-stroke: 2px #141E61;
@@ -259,7 +259,7 @@ ul.links li:not(:last-child) {
 @media (min-width: 1200px) {
 
   .bg-text-animation {
-    font-size: 12rem;
+    font-size: 10rem;
   }
 
   ul {
