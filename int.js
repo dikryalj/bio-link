@@ -12,7 +12,7 @@ window.onload = ()=>{
         xhr.onload = ()=>{
             if(xhr.status == 200 && xhr.status < 300){
                 toast.classList.remove("offline");
-                title.innerText = "Ands Sedang online Sekarang";
+                title.innerText = "Anda Sedang online Sekarang";
                 subTitle.innerText = "Hore! Internet terhubung.";
                 wifiIcon.innerHTML = '<i class="uil uil-wifi"></i>';
                 closeIcon.onclick = ()=>{ 
