@@ -29,7 +29,7 @@ body {
   font-size: 10rem;
   text-transform: uppercase;
   font-weight: 900;
-  -webkit-text-stroke: 2px black; /* Ubah dari #141E61 ke black */
+  -webkit-text-stroke: 2px black; 
   -webkit-text-fill-color: transparent;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   z-index: -1;
@@ -55,7 +55,7 @@ a {
 }
 
 .sosmed i:hover {
-  color: black; /* Ubah dari #141E61 ke black */
+  color: black; 
 }
 
 .sosmed a:not(:last-child) {
@@ -84,7 +84,7 @@ ul.links li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black; /* Ubah dari #141E61 ke black */
+  background-color: black; 
   gap: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -97,7 +97,7 @@ ul.links li:not(:last-child) {
 }
 
 .links .link-icon {
-  background-image: linear-gradient(to top, black, black); /* Ubah dari navy, teal ke black, black */
+  background-image: linear-gradient(to top, black, black); 
   padding: 0.5rem;
   border-radius: 10px;
   aspect-ratio: 1/1;
